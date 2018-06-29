@@ -1,0 +1,47 @@
+body{
+  background-color: MintCream;
+  font-family: arial,helvetica,sans-serif;
+  margin:10px 20px 30px 40px
+}
+h1{
+  color:DimGrey;
+  text-align:center;
+}
+
+p1{
+  color:black;
+  text-align:center;
+  margin:40px
+}
+p3{
+  color:SteelBlue;
+  font-family: monospace;
+  margin: 10px 25px 30px
+}
+.image:hover{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.header{
+  background-color:PeachPuff;
+  text-align: center;
+  padding: 20px;
+}
+
+.column{
+  float:left;
+}
+.column.side{
+  width: 25%;
+}
+.column.middle{
+  width: 50%;
+}
+.column.side,.column.middle{
+  width:100%;
+}
+.footer{
+  background-color: MintCream;
+  text-align: center;
+  padding: 20px;
+}
